@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Not able to read data]]>
+    </line>
+    <line>
+      <![CDATA[Not able to read data]]>
+    </line>
+    <line>
+      <![CDATA[PASSEDvalidLogin]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44251" started-at="2020-08-16T18:20:50Z" finished-at="2020-08-16T18:21:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="44251" started-at="2020-08-16T18:20:50Z" finished-at="2020-08-16T18:21:34Z">
+      <class name="tests.TC001">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:tests.TC001@685cb137]" name="openApp" is-config="true" duration-ms="43096" started-at="2020-08-16T18:20:50Z" finished-at="2020-08-16T18:21:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:tests.TC001@685cb137]" name="validLogin" duration-ms="453" started-at="2020-08-16T18:21:33Z" finished-at="2020-08-16T18:21:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Not able to read data]]>
+            </line>
+            <line>
+              <![CDATA[Not able to read data]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:tests.TC001@685cb137]" name="closeApp" is-config="true" duration-ms="678" started-at="2020-08-16T18:21:34Z" finished-at="2020-08-16T18:21:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogin status=SUCCESS method=TC001.validLogin()[pri:0, instance:tests.TC001@685cb137] output=Not able to read data]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSEDvalidLogin]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- tests.TC001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
